@@ -4,6 +4,8 @@
 
 'use strict';
 
+require('connect-mongo/es5');
+
 import express from 'express';
 import mongoose from 'mongoose';
 mongoose.Promise = require('bluebird');

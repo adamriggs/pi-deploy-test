@@ -424,6 +424,12 @@ module.exports = function(grunt) {
           remote: 'openshift',
           branch: 'master'
         }
+      },
+      github: {
+        options: {
+          remote: 'https://github.com/adamriggs/pi-deploy-test.git',
+          branch: 'build'
+        }
       }
     },
 
